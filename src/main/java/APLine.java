@@ -10,7 +10,7 @@ public class APLine
   public double getSlope(){
     return -(double)a/b;
   }
-  public boolean isOneLine(int x , int y){
+  public boolean isOnLine(int x , int y){
     return a*x+b*y+c==0;
       }
 }
